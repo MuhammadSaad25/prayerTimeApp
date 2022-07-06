@@ -1,0 +1,107 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    background-image: url(./media/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+  }
+  
+   .nav_div {
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    color: white;
+    padding: 1em 0;
+    /* font-size: 26px; */
+    overflow: hidden;
+  
+    height: 9%;
+    width: 100%;
+  }
+  
+  h1 {
+    margin: 10px 0px 0px 10px;
+    opacity: 0.7;
+  }
+  
+  form {
+    height: 100%;
+    width: 48%;
+  }
+
+  #city {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    padding-left: 25px;
+    margin-top: 1rem;
+    background-color: transparent;
+    height: 70%;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.7;
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    outline: none;
+    text-transform: capitalize;
+  }
+  
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7;
+  }
+  
+
+  .card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .sub {
+    display: none;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+    width: 50%;
+    height: 80%;
+  }
+  
+  .left {
+    padding: 0 2rem;
+  }
+  
+  
+  .left div {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+    height: 15%;
+    opacity: .8;
+    margin-bottom: .6rem;
+    padding: .22rem;
+}
+  

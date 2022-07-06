@@ -1,0 +1,49 @@
+.nav_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #city {
+    padding-left: 0.5%;
+    text-align: center;
+    opacity: 0.7;
+    margin-left: 0;
+    width: 90%;
+  }
+  
+
+  
+  .sub {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+    width: 90%;
+  }
+  
+  .left {
+    margin-left: 0.4rem;
+  }
+  
+  
+  .left div {
+    margin-bottom: 0.5rem;
+  }

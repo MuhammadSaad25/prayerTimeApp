@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css" media="(max-device-width:768px)">
+    <link rel="stylesheet" href="./mobile2.css" media="(max-device-width:380px)">
+    <title>Prayer Timings App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="nav_div">
+            <h1>Prayer Timings by City</h1><br>
+            <form onsubmit="getPrayer(); return false">
+                <input type="text" id="city" placeholder="Enter City">
+                <!-- <button type="submit">Check</button> -->
+            </form>
+
+
+        </div>
+
+
+        <div class="card">
+
+
+
+            <div class="sub">
+                <div class="left">
+                    <div id="Fajr"></div>
+                    <div id="Dhuhr"></div>
+                    <div id="Asr"></div>
+                    <div id="Maghrib"></div>
+                    <div id="Isha"></div>
+                    <div id="Sunrise"></div>
+                    <div id="Sunset"></div>
+                    <div id="Midnight"></div>
+                </div>
+
+                <!-- <div class="right">
+                    <div id="Sunrise"></div>
+                    <div id="Sunset"></div>
+                    <div id="Midnight"></div>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
